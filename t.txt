@@ -1,0 +1,113 @@
+#about .banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#about .banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#about .content {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  /* transform: translate(-50%, -50%); */
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#about .content h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: gold;
+}
+
+#about .content p {
+  font-size: 1.2rem;
+}
+
+#about .banner .btn-call {
+  display: inline-block;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10%;
+  color: #680f53;
+}
+
+.mascot-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+}
+
+.mascot-image {
+  max-width: 100%;
+  width: 200px;
+  margin: 20px;
+}
+
+.mascot-text {
+  flex-grow: 1;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.mascot-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  #about .content {
+    width: 95%;
+  }
+
+  #about .banner .content h2 {
+    font-size: 2em;
+  }
+
+  #about .banner img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    object-position: 80%;
+  }
+
+  .mascot-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mascot-text {
+    max-width: 100%;
+    order: 2;
+  }
+
+  .mascot-image {
+    width: 50%;
+    margin: 0 auto 20px;
+    order: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  #about .content {
+    /* width: 95%; */
+    /* left: 33%; */
+  }
+}

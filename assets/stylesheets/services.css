@@ -1,0 +1,514 @@
+main.service-page .banner {
+  background: url(https://www.repindia.com/wp-content/uploads/2023/05/banner-1.jpg)
+    no-repeat center center;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+main.service-page .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 60%;
+}
+
+main.service-page .banner-content h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main.service-page .banner-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+main.service-page .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f48222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+main.service-page .cta-button:hover {
+  background-color: #d58aab;
+}
+
+main.service-page .service-content {
+  margin: 2% 0;
+}
+main.service-page .service-content h2 {
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+  padding: 2% 0;
+}
+main.service-page .service-content {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 24px;
+}
+main.service-page .seo-services {
+}
+main.service-page .seo-services .content {
+  text-align: center;
+}
+main.service-page .seo-services .content h2 {
+  font-size: 32px;
+  line-height: normal;
+  padding: 2% 0;
+}
+
+main.service-page .seo-services .seo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 5% 0;
+}
+
+main.service-page .seo-services .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 2% 4%;
+}
+
+main.service-page .seo-services .card .img {
+  width: 25%;
+}
+main.service-page .seo-services .card .img img {
+  width: 100%;
+}
+main.service-page .seo-services .card .content {
+}
+main.service-page .seo-services .card .content h3 {
+  padding: 4% 0;
+}
+main.service-page .seo-services .card .content p {
+  text-align: center;
+  line-height: 22px;
+}
+/* / contact-banner / */
+.service-page .contact-container {
+  margin: 2% 0;
+}
+.service-page .contact-banner {
+  /* background-color: #0bbdfd; */
+  background: linear-gradient(90deg, #020024 0, #1f71b2 0, #0d3453 82%);
+  text-align: center;
+  border-radius: 13px;
+  padding: 3%;
+  color: #fff;
+}
+.service-page .contact-banner h2 {
+  font-size: 30px;
+}
+.service-page .contact-banner p {
+  font-size: 18px;
+  padding: 1% 0;
+}
+.service-page .contact-banner .get-call {
+  margin-top: 2%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.service-page .contact-banner .get-call span {
+  padding: 1% 3%;
+  border-radius: 5px;
+}
+.service-page .contact-banner .get-call span a {
+  color: #fff;
+  font-weight: bolder;
+}
+.service-page .contact-banner .get-call .call {
+  border: 2px solid gold;
+}
+.service-page .contact-banner .get-call .proposal {
+  background-color: gold;
+}
+.service-page .contact-banner .get-call .proposal a {
+  color: #000;
+}
+/* #multi-tab */
+#multi-tab {
+  margin: 5% 0;
+}
+
+#multi-tab h2 {
+  text-align: center;
+}
+
+#multi-tab .tab-container {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  margin-top: 50px;
+}
+
+#multi-tab .tab-container .tab-content {
+  width: 80%;
+}
+
+#multi-tab .tab-container .tab-bar {
+  background-color: #000000e3;
+  color: #fff;
+  width: 20%;
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#multi-tab .tab-container .tabs {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+#multi-tab .tab-container .tab-name {
+  /* padding: 20px 5%; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  box-sizing: border-box;
+}
+.tab-name.active {
+  color: #fff;
+  background: linear-gradient(
+    0deg,
+    hsl(207deg 73% 13%) 0,
+    hsl(207deg 100% 56%) 100%
+  );
+  border: 1px solid #0bbdfd;
+  padding: 20px;
+  border-radius: 50px 0 0 50px;
+  position: relative;
+  width: calc(100% + 30px);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#multi-tab .tab-container .tab-name.active::after {
+  content: "";
+  width: 24px;
+  height: 50px;
+  position: absolute;
+  top: 59px;
+  right: 0;
+  transform: skewY(303deg);
+  z-index: -2;
+  background: linear-gradient(
+      0deg,
+      hsl(196deg 85% 41%) 0,
+      hsl(248deg 86% 22%) 100%
+    )
+    no-repeat;
+}
+
+.tab-content .content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 8px 0 #00000029;
+  border-radius: 10px;
+  overflow: auto;
+  overflow-x: hidden;
+  height: 100%;
+  padding: 24px;
+}
+
+.tab-content .content.active {
+  display: block;
+  opacity: 1;
+}
+
+.tab-content .content a {
+  display: block;
+  text-align: center;
+  color: #0d3453;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.tab-content .content a:hover {
+  color: #020024;
+}
+
+#multi-tab .tab-container .tab-content h2 {
+  text-align: left;
+  color: #2d2d2e;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 45px;
+  padding-bottom: 20px;
+}
+
+#multi-tab .tab-container .tab-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* work-count  */
+
+main.service-page .work-count {
+  margin: 5% 0;
+}
+main.service-page .work-count .cards {
+  display: flex;
+  justify-content: space-between;
+}
+main.service-page .work-count .cards .card {
+  background-color: rgb(229 229 229);
+  padding: 5%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+main.service-page .num {
+  font-size: 33px;
+  font-weight: 800;
+  color: #f48222;
+  width: 100px;
+  text-align: center;
+}
+main.service-page .card p {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(99, 95, 95);
+}
+
+/* FAQ  */
+
+.faq h2 {
+  margin-bottom: 15px;
+}
+
+.faq-item {
+  background-color: #1c69a5;
+}
+
+.faq-question {
+  width: 100%;
+  background: #f1f1f1;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0;
+}
+
+.faq-answer p {
+  padding: 15px;
+  background: #fff;
+}
+
+.faq .icon {
+  transition: transform 0.3s;
+  color: rgb(69, 68, 68);
+}
+
+button[aria-expanded="true"] .icon {
+  transform: rotate(180deg);
+}
+
+.faq-item + .faq-item {
+  margin-top: 10px;
+}
+
+/* @media (max-width: 376px) {
+  #multi-tab .tab-name.active {
+    min-width: 296px;
+  }
+} */
+/* @media (max-width: 326px) {
+  #multi-tab .tab-name.active {
+    min-width: 248px;
+  }
+} */
+/* @media (max-width: 768px) {
+  .tab-name.active {
+    min-width: 190px;
+  }
+} */
+/* media query */
+@media (max-width: 767px) {
+  main.service-page .banner-content {
+    max-width: 100%;
+  }
+  main.service-page .service-content {
+    padding: 0 10%;
+  }
+  main.service-page .service-content h2 {
+    padding: 5% 0;
+    font-size: 18px;
+  }
+  main.service-page .service-content {
+    font-size: 14px;
+    line-height: normal;
+  }
+  /*  */
+  main.service-page .seo-services {
+    padding: 0 10%;
+    margin: 10% 0;
+  }
+  main.service-page .seo-services .seo-cards {
+    flex-direction: column;
+  }
+  main.service-page .seo-services .seo-cards .card {
+    margin-top: 5%;
+    width: 100%;
+  }
+  main.service-page .seo-services .content h2 {
+    font-size: 18px;
+  }
+  main.service-page .seo-services .content p {
+    font-size: 16px;
+  }
+  .service-page .contact-container {
+    margin: 2% 6%;
+  }
+  .service-page .contact-banner h2 {
+    font-size: 18px;
+  }
+  .service-page .contact-banner p {
+    font-size: 14px;
+    padding: 5% 0;
+  }
+  .service-page .contact-banner .get-call {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .service-page .contact-banner .get-call span {
+    padding: 3% 5%;
+    border-radius: 5px;
+  }
+  #multi-tab .tab-container .tab-bar {
+    width: 38%;
+  }
+  #multi-tab .tab-container {
+    flex-direction: column;
+    padding: 0 7%;
+  }
+  /* .tab-name.active {
+    min-width: 325px;
+  } */
+  #multi-tab .tab-container .tab-name.active::after {
+    content: "";
+    width: 18px;
+    height: 43px;
+    top: 35px;
+  }
+  #multi-tab .tab-container .tab-bar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #multi-tab .tab-container .tab-content {
+    width: 100%;
+  }
+
+  #multi-tab .tab-container .tab-name {
+    justify-content: flex-start;
+    /* padding: 15px; */
+  }
+
+  #multi-tab .tab-container .tab-name img {
+    width: 24px;
+    height: 24px;
+  }
+
+  #multi-tab .tab-container .tab-name span {
+    font-size: 14px;
+  }
+
+  #multi-tab .tab-content .content {
+    padding: 16px;
+  }
+
+  #multi-tab h2 {
+    font-size: 20px;
+  }
+
+  #multi-tab .tab-container .tab-content h2 {
+    font-size: 20px;
+  }
+
+  #multi-tab .tab-container .tab-content p {
+    font-size: 14px;
+  }
+
+  /* work-count */
+  main.service-page .work-count .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 9%;
+  }
+  main.service-page .work-count .cards .card {
+    background-color: rgb(229 229 229);
+    padding: 5%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 46%;
+  }
+  /* accordion  */
+  .faq {
+    margin: 10% 0px;
+    padding: 0 10%;
+  }
+  .faq-question {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .faq-answer p {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  main.service-page .seo-services .seo-cards {
+    gap: 0;
+  }
+  main.service-page .seo-services .card {
+    width: 50%;
+    padding: 2%;
+  }
+  .service-page .contact-banner h2 {
+    font-size: 24px;
+  }
+  .service-page .contact-banner p {
+    font-size: 16px;
+  }
+
+  #multi-tab .tab-container .tab-bar {
+    width: 28%;
+  }
+  main.service-page .work-count .cards .card {
+    padding: 4%;
+  }
+}
